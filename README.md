@@ -1,4 +1,4 @@
-#Logica da COmputação -  APS: Linguagem
+# Logica da Computação -  APS: Linguagem
 
 #### Bruna Kimura
 
