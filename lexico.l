@@ -2,9 +2,6 @@
 #include <stdio.h>
 %}
 
-ds     {declaration-specifier}*
-d      {declaration}*
-
 %%
 colon       TOKEN(colon)
 logic_or    TOKEN(logic_or)
@@ -34,6 +31,8 @@ or_equal    TOKEN(or_equal)
 not_bit     TOKEN(not_bit)
 not         TOKEN(not)
 semicolon   TOKEN(semicolon)
+
+
 if          TOKEN(if)
 else        TOKEN(else)
 switch      TOKEN(switch)
@@ -42,8 +41,7 @@ do          TOKEN(do)
 for         TOKEN(for)
 ?           TOKEN(qm)
 (           TOKEN(open_p)
-)           TOKEN(close_p) 
+)           TOKEN(close_p)
+enum		TOKEN(enum)
 
-{ds}        TOKEN(DS)
-{d}        TOKEN(D)
 %%
