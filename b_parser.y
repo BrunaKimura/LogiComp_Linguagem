@@ -16,16 +16,8 @@ function-definition: declaration-specifier declarator declaration compound-state
 declaration-specifier: 
                      | type-specifier
     ;
-type-specifier: void
-              | char
-              | short
-              | int
-              | long
-              | float
-              | double
-              | signed
-              | unsigned
-              | typedef-name
+type-specifier: int
+              | bool
     ;
 specifier-qualifier: type-specifier
     ;
